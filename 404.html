@@ -30,6 +30,46 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* Additional CSS for testimonial styling */
+        .testimonial-text {
+    box-shadow: 0px 8px 15px rgba(0, 123, 255, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-text:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-img-wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Owl Carousel specific styles */
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-nav button:hover,
+.owl-carousel button.owl-dot:hover {
+    background: #0a58ca;
+}
+
+
+    </style>
 </head>
 
 <body>
@@ -139,6 +179,46 @@
     </div>
     -->
     <!-- 404 End -->
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-4">Extensions!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img-wrapper mx-auto mb-4" style="background: url('Uf1.jpeg') center center / cover no-repeat; width: 120px; height: 120px; border-radius: 10px;">
+                    </div>
+                    <div class="testimonial-text rounded text-center p-4" style="background-color: black; border: 1px solid #bbe1fa;">
+                        <p>Etiam porta sem malesuada magna mollis euismod.</p>
+                        <h5 class="mb-1" style="color: #0a58ca;">Paper Title 1</h5>
+                        <span class="fst-italic" style="color: #495057;">Journal 1</span>
+                    </div>
+                </div>
+                <!-- Repeat for other testimonial items -->
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img-wrapper mx-auto mb-4" style="background: url('Uf1.jpeg') center center / cover no-repeat; width: 120px; height: 120px; border-radius: 10px;">
+                    </div>
+                    <div class="testimonial-text rounded text-center p-4" style="background-color: black; border: 1px solid #bbe1fa;">
+                        <p>Etiam porta sem malesuada magna mollis euismod.</p>
+                        <h5 class="mb-1" style="color: #0a58ca;">Paper Title 1</h5>
+                        <span class="fst-italic" style="color: #495057;">Journal 1</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img-wrapper mx-auto mb-4" style="background: url('Uf1.jpeg') center center / cover no-repeat; width: 120px; height: 120px; border-radius: 10px;">
+                    </div>
+                    <div class="testimonial-text rounded text-center p-4" style="background-color: black; border: 1px solid #bbe1fa;">
+                        <p>Etiam porta sem malesuada magna mollis euismod.</p>
+                        <h5 class="mb-1" style="color: #0a58ca;">Paper Title 1</h5>
+                        <span class="fst-italic" style="color: #495057;">Journal 1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
         
 
     <!-- Footer Start -->
